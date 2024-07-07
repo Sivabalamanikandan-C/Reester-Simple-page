@@ -1,0 +1,142 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    padding: 35px;
+}
+
+.navbar
+{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.navbar__title
+{
+    font-size: 40px;
+    padding-bottom: 7px;
+}
+
+.section-one__img, .section-two__img, .section-three__img, .section-four__img
+{
+    width: 200px;
+    height: 300px;
+}
+
+.section
+{
+   text-align: center;
+}
+
+.section-one, .section-two, .section-three, .section-four
+{
+    display: inline-block;
+    height: 490px;
+    width: 227px;
+    vertical-align: top;
+    border: 2px solid black;
+    padding: 3px;
+    margin-top: 7px;
+}
+
+.section-one__desc, .section-two__desc, .section-three__desc, .section-four__desc
+{
+    line-height: 18px;
+    height: 130px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+}
+
+.section-one__btn, .section-two__btn, .section-three__btn, .section-four__btn
+{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 9px;
+    border: 2px solid black;
+}
+
+.contact-form
+{
+    display: inline-block;
+}
+
+.containertwo
+{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.contact-form__title
+{
+    margin-bottom: 5px;
+}
+
+.contact-form__btn
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    margin-top: 6px;
+    border-radius: 7px;
+    border: 2px solid white;
+}
+
+.contact-form__nameinput, .contact-form__emailinput
+{
+    outline: none;
+}
+
+.contact-form__ageinput
+{
+    width: 162px;
+    outline: none;
+}
+
+input[type="number"]:in-range
+{
+    color: green;
+}
+
+input[type="number"]:out-of-range
+{
+    color: red;
+    border: 2px solid red;
+}
+
+.contact-form__age
+{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.contact-form__ageinput
+{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+input[type="email"]:valid
+{
+    color: green;
+}
+
+input[type="email"]:invalid
+{
+    color: red;
+    
+}
